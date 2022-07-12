@@ -9,6 +9,7 @@ const Project = () => {
 	return (
 		<article className="project">
 			<div className="App-bg"></div>
+			<h1>Projects Preview</h1>
 			<section className="previews-section">
 				<div className="previews-grid">
 					<a href="https://geekycoder25.github.io/Qoreebullah-Portfolio/">
@@ -41,9 +42,6 @@ const Project = () => {
 					</a>
 				</div>
 			</section>
-			<div id="button-click">
-				<i className="fas fa-angles-right"></i>
-			</div>
 		</article>
 	);
 };

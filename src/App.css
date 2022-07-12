@@ -722,6 +722,7 @@ textarea {
 	min-height: 80vh;
 	overflow: scroll;
 	padding: 50px;
+	padding-top: 0;
 	margin: auto;
 	gap: 100px;
 	overflow-y: scroll;
@@ -731,9 +732,6 @@ textarea {
 .previews-section::-webkit-scrollbar {
 	display: none;
 }
-/* .previews-grid {
-	width: 90%;
-} */
 .previews-logo {
 	/* transform: translateX(-50%); */
 	/* width: 70%; */
@@ -1067,6 +1065,20 @@ textarea {
 	.contact .contact-social-links img {
 		width: 20px;
 	}
+	.previews-section {
+		flex-direction: column;
+		justify-content: center;
+		padding: 0;
+		width: 90%;
+		gap: 50px;
+		margin: 5% auto 20%;
+	}
+	.previews-logo {
+		max-width: 100%;
+		width: 100%;
+		margin: auto;
+		box-shadow: unset;
+	}
 	.bg-style-container img {
 		width: 100%;
 	}
@@ -1109,7 +1121,7 @@ textarea {
 		font-size: 1.5rem;
 	}
 	nav .navlinks .navfooter p {
-		font-size: .8rem;
+		font-size: 0.8rem;
 	}
 	nav .navlinks .active::after {
 		height: 40px;
