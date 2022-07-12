@@ -765,7 +765,6 @@ textarea {
 	max-width: 500px;
 	max-height: 500px;
 	border-radius: 50%;
-	margin-top: 5%;
 	background-color: #000;
 }
 .first-page h1 {
@@ -807,7 +806,7 @@ textarea {
 	margin: 0% auto 3%;
 }
 .error h1 {
-	font-size: 10vw;
+	font-size: 8vw;
 	text-transform: uppercase;
 }
 .error a {

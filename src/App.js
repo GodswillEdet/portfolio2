@@ -1,9 +1,9 @@
-import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
-// import { HashRouter } from 'react-router-dom';
+import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom';
+// import { Router } from 'react-router-dom';
 import './App.css';
 import './fontawesome-free-6.1.1-web/css/all.css';
 import ScrollToTop from './Components/ScrollToTop';
-import Firstpage from './Components/Firstpage'
+import Firstpage from './Components/Firstpage';
 import Home from './Components/Home';
 import Navbar from './Components/Navbar';
 import Certificates from './Components/Certificates';
@@ -16,12 +16,12 @@ import Error from './Components/Error';
 import Blur from './Components/Blur';
 function App() {
 	return (
-		// <HashRouter>
-		<Router>
+		<HashRouter>
+			{/* <Router> */}
 			<div className="App">
 				<ScrollToTop />
 				<Navbar />
-				<Blur/>
+				<Blur />
 				<Routes>
 					<Route path="/" element={<Firstpage />} />
 					<Route path="/home" element={<Home />} />
@@ -34,8 +34,8 @@ function App() {
 				</Routes>
 				<Sidenav />
 			</div>
-		</Router>
-		// </HashRouter>
+			{/* </Router> */}
+		</HashRouter>
 	);
 }
 
