@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio2/static/css/main.66423e92.css",
-    "main.js": "/portfolio2/static/js/main.c36bd851.js",
+    "main.js": "/portfolio2/static/js/main.bb47064a.js",
     "static/media/naruto-pull.gif": "/portfolio2/static/media/naruto-pull.2adf07cef760af0be664.gif",
     "static/media/fa-solid-900.ttf": "/portfolio2/static/media/fa-solid-900.e615bbcb258550973c16.ttf",
     "static/media/dees-estate.jpg": "/portfolio2/static/media/dees-estate.72215520caad1bec6c6e.jpg",
@@ -40,10 +40,10 @@
     "static/media/git.svg": "/portfolio2/static/media/git.fd381642a8b14fec88b8d6df1ff25220.svg",
     "index.html": "/portfolio2/index.html",
     "main.66423e92.css.map": "/portfolio2/static/css/main.66423e92.css.map",
-    "main.c36bd851.js.map": "/portfolio2/static/js/main.c36bd851.js.map"
+    "main.bb47064a.js.map": "/portfolio2/static/js/main.bb47064a.js.map"
   },
   "entrypoints": [
     "static/css/main.66423e92.css",
-    "static/js/main.c36bd851.js"
+    "static/js/main.bb47064a.js"
   ]
 }
