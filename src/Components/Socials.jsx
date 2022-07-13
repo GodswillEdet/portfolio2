@@ -2,6 +2,13 @@ const Socials = () => {
 	return (
 		<section className="social-links">
 			<a
+				href="https://github.com/geekycoder25"
+				target="_blank"
+				rel="noreferrer"
+			>
+				<i className="fab fa-github"></i>
+			</a>
+			<a
 				href="https://twitter.com/_GeekyCoder_"
 				target="_blank"
 				rel="noreferrer"
