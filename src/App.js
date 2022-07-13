@@ -1,5 +1,9 @@
-import { BrowserRouter as HashRouter, Routes, Route } from 'react-router-dom';
-// import { Router } from 'react-router-dom';
+import {
+	// BrowserRouter as Router,
+	HashRouter,
+	Routes,
+	Route,
+} from 'react-router-dom';
 import './App.css';
 import './fontawesome-free-6.1.1-web/css/all.css';
 import ScrollToTop from './Components/ScrollToTop';
