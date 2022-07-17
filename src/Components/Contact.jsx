@@ -3,6 +3,7 @@ import phone from '../images/phone.png';
 import profile from '../images/profile.png'
 import Footer from './Footer';
 import Socials from './Socials';
+import Submit from './Submit';
 
 const Contact = () => {
 	return (
@@ -23,7 +24,7 @@ const Contact = () => {
 				<input
 					type="hidden"
 					name="_next"
-					value="https://geekycoder25.github.io/Portfolio/thankyou.html"
+					value={<Submit />}
 				/>
 				<input
 					type="hidden"
